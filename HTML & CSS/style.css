@@ -1,6 +1,6 @@
 /* Universal Settings */
 * {
-    
+    border: 1px dashed lightcoral;
 }
 
 html {
@@ -51,7 +51,6 @@ html {
 
 /* Mission Section */
 .banner-container {
-    background-color: pink;
     background-image: url(../Images/mission\ banner.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -76,4 +75,25 @@ html {
 .mission {
     width: 500px;
     font-size: 1.25em;
+}
+
+/* Services Section */
+.subtitle {
+    padding-top: 100px;
+}
+
+.subtitle p {
+    text-align: center;
+    font-size: 2em;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.services p{
+    text-align: center;
+    font-size: 1.35em;
+    color:rgb(112, 111, 111);
 }
