@@ -90,10 +90,40 @@ html {
 .service-container {
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 100px;
 }
 
 .services p{
     text-align: center;
     font-size: 1.35em;
     color:rgb(112, 111, 111);
+}
+
+.services p:hover{
+    color: black;
+}
+
+/* Our Team Section */
+.our-team-container {
+    background-image: url(../Images/gameover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.our-team {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+.team-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team-member p {
+    color: white;
+    text-align: center;
+    font-weight: bold;
 }
