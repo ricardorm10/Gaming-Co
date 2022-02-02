@@ -1,5 +1,50 @@
+/* Universal Settings */
+* {
+    border: 1px dotted lightcoral;
+}
+
 html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Section */
+.head-container {
+    display: flex;
+    height: 53px;
+    border-bottom: 1px solid gray;
+}
+
+.logo-container img {
+    width: 75px;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.nav-container {
+    padding-left: 35px;
+}
+
+.nav-container ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-container li {
+    display: inline-block;
+    margin: 0 35px;
+    padding-top: 13px;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: #444;
+    text-transform: uppercase;
+}
+
+.nav-container a:hover {
+    color: black;
 }
