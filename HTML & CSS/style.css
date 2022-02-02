@@ -1,6 +1,6 @@
 /* Universal Settings */
 * {
-    border: 1px dotted lightcoral;
+    
 }
 
 html {
@@ -47,4 +47,33 @@ html {
 
 .nav-container a:hover {
     color: black;
+}
+
+/* Mission Section */
+.banner-container {
+    background-color: pink;
+    background-image: url(../Images/mission\ banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name p {
+    font-size: 2em;
+}
+
+.name, .mission {
+    color: white;
+    text-align: center;
+}
+
+.mission {
+    width: 500px;
+    font-size: 1.25em;
 }
